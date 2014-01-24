@@ -1,0 +1,40 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body{ background-color:#003e00}
+.wrapper{width:1240px; height:auto; margin:0 auto;}
+
+.header{ width:100%; height:100px;}
+
+.logo_bar{  width:auto;height:75px; float:left;}
+.logo_bar a, a:hover{ text-decoration:none;}
+.logo_small{background:url(../images/logo_white_45x75.png) no-repeat;  width:60px; height:75px; float:left;vertical-align:middle;  position:fixed; top:10px; left:70px;}
+.logo_name{  
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px; width:200px; vertical-align:middle; position:fixed; top:20px; left:80px;}
+
+.clear{ clear:both; height:20px; width:100%; }
+
+
+.content{  position:fixed; top:120px; left:70px;}
+.content{}
+.color1{ background-color:#d9522c; cursor:pointer;} /* Light RED */ 
+.color2{ background-color:#008f00; cursor:pointer;} /* Light GREEN */ 
+.color3{ background-color:#a200a9; cursor:pointer;} /* Light Voilet */ 
+.color4{ background-color:#5b39b5; cursor:pointer;} /* Light BLUE */ 
+.color5{ background-color:#ff8b0c; cursor:pointer;} /* Light ORANGE */ 
+.color6{ background-color:#178ab5; cursor:pointer;} /* Light SKY BLUE */ 
+.color7{ background-color:#ba1d48; cursor:pointer;} /* Light PINK */ 
+.color8{ background-color:#0a5ac3; cursor:pointer;} /* Dark BLUE */ 
+.color9{ background-color:#5fb335; cursor:pointer;} /* Dark CARBON */ 
+.color10{ background-color:#8dbd1c; cursor:pointer;} /* PISTA */ 
+.color11{ background-color:#fcf8ee; cursor:pointer;} /* Light GRAY */ 
+.color12{ background-color:#007e00; cursor:pointer;}/* Dark GREEN */
+
+.color1:hover{ }
+.tile_box{ position:relative; height:100%; width:100%; }
+.tile_name{color: #fff; font-family: 'Open Sans', sans-serif; font-size:13px; position: absolute; left: 0; width: 100%; bottom: 0; padding:5px;}

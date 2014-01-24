@@ -1,0 +1,169 @@
+@charset "utf-8";
+/* CSS Document */
+@font-face {
+	font-family: 'Open Sans Light';
+	 src: url('OpenSans-Light.eot');
+	 src: url('OpenSans-Light.eot?#iefix') format('embedded-opentype'),
+	 url('OpenSans-Light.woff') format('woff'),
+	 url('OpenSans-Light.ttf') format('truetype'),
+	 url('OpenSans-Light.svg#FontName') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+	}
+@font-face {
+	font-family: 'Open Sans';
+	 src: url('OpenSans.eot');
+	 src: url('OpenSans.eot?#iefix') format('embedded-opentype'),
+	 url('OpenSans.woff') format('woff'),
+	 url('OpenSans.ttf') format('truetype'),
+	 url('OpenSans.svg#FontName') format('svg');
+	 font-weight: normal;
+	 font-style: normal;
+	}
+
+
+
+body{ background-color:#003e00}
+.wrapper{width:1240px; height:auto; margin:0 auto;}
+
+.header{ width:100%; height:100px;}
+
+.logo_bar{  width:auto;height:75px; float:left; position:relative}
+.logo_bar a, a:hover{ text-decoration:none;}
+.logo_small{ width:auto; height:75px; float:left;vertical-align:middle; position:absolute; padding:0px 0px 0px 5px;  }
+.logo_name{  
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px; width:auto; border:1px solid red; vertical-align:middle; position:absolute}
+  
+.title_text{color: #cccccc;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px; width:auto; padding:0 0 0 5px}
+.title_text:hover{color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 12px; width:auto; padding:0 0 0 5px}
+
+.clear{ clear:both; height:20px; width:100%; }
+
+
+.content{  position:fixed; top:120px; left:70px;}
+.content{}
+.color1{ background-color:#d9522c; cursor:pointer;} /* Light RED */ 
+.color2{ background-color:#008f00; cursor:pointer;} /* Light GREEN */ 
+.color3{ background-color:#a200a9; cursor:pointer;} /* Light Voilet */ 
+.color4{ background-color:#5b39b5; cursor:pointer;} /* Light BLUE */ 
+.color5{ background-color:#ff8b0c; cursor:pointer;} /* Light ORANGE */ 
+.color6{ background-color:#178ab5; cursor:pointer;} /* Light SKY BLUE */ 
+.color7{ background-color:#ba1d48; cursor:pointer;} /* Light PINK */ 
+.color8{ background-color:#0a5ac3; cursor:pointer;} /* Dark BLUE */ 
+.color9{ background-color:#5fb335; cursor:pointer;} /* Dark CARBON */ 
+.color10{ background-color:#8dbd1c; cursor:pointer;} /* PISTA */ 
+.color11{ background-color:#fcf8ee; cursor:pointer;} /* Light GRAY */ 
+.color12{ background-color:#007e00; cursor:pointer;} /* Dark GREEN */
+.color13{ background-color:#FFFFFF; cursor:pointer;} /* White */
+.color14{ background-color:#008100; cursor:pointer;} /* LDark GREEN */
+.color15{ background-color:#094db5; cursor:pointer;} /* LDark Blue */
+.color16{ background-color:#cd0e13; cursor:pointer;} /* Red */
+.color17{ background-color:#7355c4; cursor:pointer;}
+.color18{ background-color:#f45f00; cursor:pointer;}
+.color19{ background-color:#f0514a; cursor:pointer;}
+
+.color1:hover{ }
+.tile_box{ position:relative; height:100%; width:100%; }
+.tile_name{color: #fff; font-family: 'Open Sans', sans-serif; font-size:13px; position: absolute; left: 0; width: 98%; bottom: 0; padding:5px;}
+
+/* ADMIN STYLES */
+.admin_content_area{ background-color:#ececef; padding:10px;color: #454545;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px; height:450px; overflow:auto }
+.admin_content_area a{ color:#146399; text-decoration:none;}
+.admin_content_area a:hover{ color:#000000; text-decoration:none;}
+.admin_content_area h2{color: #454545;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px; margin:0px 0px 0px 0px; padding:0px; }
+  
+.admin_content_area p{font-family: 'Open Sans', sans-serif; font-size:14px; margin:10px 0px; }
+
+.admin_content_area .adm_inptext{ height:28px; border:1px solid #bababa;font-family: 'Open Sans', sans-serif; font-size: 12px; padding:0px 5px; color:#bababa; width:250px; }
+.admin_content_area .adm_inptext:hover{border:1px solid #8f8f8f; color:#8f8f8f}
+.admin_content_area .adm_inptext:focus{  border:1px solid #454545; color:#454545}
+
+.admin_content_area .adm_select{ height:28px; border:1px solid #bababa;font-family: 'Open Sans', sans-serif; font-size: 12px; padding:0px 0px 0px 5px ; color:#bababa; width:250px; }
+.admin_content_area .adm_select:hover{border:1px solid #8f8f8f; color:#8f8f8f}
+.admin_content_area .adm_select:focus{  border:1px solid #454545; color:#454545}
+
+.admin_content_area::-webkit-scrollbar-track
+{
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5;
+}
+
+.admin_content_area::-webkit-scrollbar
+{
+	width: 20px;
+	background-color: #F5F5F5;
+}
+
+.admin_content_area::-webkit-scrollbar-thumb
+{
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+	background-color: #555;
+}
+
+.ubutton{ background-color:#00ccff; border:0px; height:30px; width:auto; color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px; padding:0px 5px; }
+.ubutton:hover{ background-color:#24459a}
+/* ADMIN STYLES */
+
+
+.knowyourmanagers_tile_box{ position:relative; height:100%; width:100%;color: #454545; font-size:14px;}
+.knowyourmanagers_tile_name{color: #454545; font-family: 'Open Sans', sans-serif; font-size:12px; position: absolute; left: 0; width: 98%; bottom: 0; padding:5px;}
+.knowyourmanagers_tile_name a{ color:#146399; text-decoration:none;}
+.knowyourmanagers_tile_name a:hover{ color:#000000; text-decoration:none;}
+
+.knowyourmanagers_tile_box a{ color:#146399; text-decoration:none;}
+.knowyourmanagers_tile_box a:hover{ color:#000000; text-decoration:none;}
+
+
+
+
+
+table.gridtable {
+
+
+color:#333333;
+border-width: 1px;
+border-color: #cccccc;
+border-collapse: collapse;
+}
+table.gridtable th {
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #cccccc;
+background-color: #dedede;
+}
+table.gridtable td {
+border-width: 1px;
+padding: 8px;
+border-style: solid;
+border-color: #cccccc;
+
+}
+.video_img{ position:relative; opacity:.7; width:470px; height:300px; overflow:hidden; }
+.video_img:hover{ position:relative; opacity:1; }
+.video_img .play_btn{ background:#FFFFFF url(../images/play_blue.png) no-repeat; position:absolute;
+z-index: 3; margin-top:0px;
+width: 48px;
+height: 48px;} 
+
+

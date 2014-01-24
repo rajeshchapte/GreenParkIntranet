@@ -1,0 +1,104 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+body{ background-color:#003e00}
+.wrapper{width:1240px; height:auto; margin:0 auto;}
+
+.header{ width:100%; height:100px;}
+
+.logo_bar{ width:1240px;height:75px; float:left; position:relative; margin:0 auto; }
+.logo_bar a, a:hover{ text-decoration:none;}
+.logo_small{ width:auto; height:75px; float:left;vertical-align:middle; position:absolute; padding:0px 0px 0px 5px;  }
+.logo_name{  
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px; width:auto; border:1px solid red; vertical-align:middle; position:absolute}
+
+.clear{ clear:both; height:20px; width:100%; }
+
+h2{color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px; margin:0px 0px 0px 0px; padding:0px; }
+
+.content{  position:fixed; top:120px; left:70px;}
+.content{}
+.color1{ background-color:#d9522c; cursor:pointer;} /* Light RED */ 
+.color2{ background-color:#008f00; cursor:pointer;} /* Light GREEN */ 
+.color3{ background-color:#a200a9; cursor:pointer;} /* Light Voilet */ 
+.color4{ background-color:#5b39b5; cursor:pointer;} /* Light BLUE */ 
+.color5{ background-color:#ff8b0c; cursor:pointer;} /* Light ORANGE */ 
+.color6{ background-color:#178ab5; cursor:pointer;} /* Light SKY BLUE */ 
+.color7{ background-color:#ba1d48; cursor:pointer;} /* Light PINK */ 
+.color8{ background-color:#0a5ac3; cursor:pointer;} /* Dark BLUE */ 
+.color9{ background-color:#5fb335; cursor:pointer;} /* Dark CARBON */ 
+.color10{ background-color:#8dbd1c; cursor:pointer;} /* PISTA */ 
+.color11{ background-color:#fcf8ee; cursor:pointer;} /* Light GRAY */ 
+.color12{ background-color:#007e00; cursor:pointer;}/* Dark GREEN */
+.color13{ background-color:#FFFFFF; cursor:pointer;} /* White */
+.color14{ background-color:#008100; cursor:pointer;}/* LDark GREEN */
+.color15{ background-color:#094db5; cursor:pointer;}/* LDark Blue */
+.color16{ background-color:#cd0e13; cursor:pointer;}/* Red */
+.color17{ background-color:#7355c4; cursor:pointer;}
+.color18{ background-color:#f45f00; cursor:pointer;}
+.color19{ background-color:#f0514a; cursor:pointer;}
+
+
+.color1:hover{ }
+.tile_box{ position:relative; height:100%; width:100%; }
+.tile_name{color: #fff; font-family: 'Open Sans', sans-serif; font-size:13px; position: absolute; left: 0; width: 100%; bottom: 0; padding:5px;}
+
+
+/* ADMIN STYLES */
+.admin_content_area{ background-color:#ececef; padding:10px;color: #454545;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 14px; height:450px; }
+.admin_content_area a{ color:#146399; text-decoration:none;}
+.admin_content_area a:hover{ color:#000000; text-decoration:none;}
+.admin_content_area h2{color: #454545;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  font-size: 22px; margin:0px 0px 0px 0px; padding:0px; }
+
+.admin_content_area .adm_inptext{ height:28px; border:1px solid #bababa;font-family: 'Open Sans', sans-serif; font-size: 12px; padding:0px 5px; color:#bababa; width:250px; }
+.admin_content_area .adm_inptext:hover{border:1px solid #8f8f8f; color:#8f8f8f}
+.admin_content_area .adm_inptext:focus{  border:1px solid #454545; color:#454545}
+
+.admin_content_area .adm_select{ height:28px; border:1px solid #bababa;font-family: 'Open Sans', sans-serif; font-size: 12px; padding:0px 0px 0px 5px ; color:#bababa; width:262px; }
+.admin_content_area .adm_select:hover{border:1px solid #8f8f8f; color:#8f8f8f}
+.admin_content_area .adm_select:focus{  border:1px solid #454545; color:#454545}
+
+
+.ubutton{ background-color:#00ccff; border:0px; height:30px; width:auto; color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px; }
+.ubutton:hover{ background-color:#24459a}
+.ubutton_red{ background-color:#c00202; border:0px; height:30px; width:auto; color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px; padding:0px 5px; }
+.ubutton_red:hover{ background-color:#dc0202}
+.ubutton_green{ background-color:#008100; border:0px; height:30px; width:auto; color: #FFFFFF;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  font-size: 14px; padding:0px 5px; }
+.ubutton_green:hover{ background-color:#00a400}
+/* ADMIN STYLES */
+
+
+.test123{    content: "\203A";
+    display: block;
+    font-size: 1.4em;
+    left: 100%;
+    margin-left: -10px;
+    top: 8px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    -o-transform: rotate(90deg);
+    transform: rotate(90deg);}
